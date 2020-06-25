@@ -1,0 +1,24 @@
+/* cards.module.css beacuse it doesnt interfere with other component's css classes */
+
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% !important;
+}
+
+.infected{
+    border-bottom: 10px solid blueviolet;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.recovered{
+    border-bottom: 10px solid rgb(151, 228, 36);
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.deaths{
+    border-bottom: 10px solid rgb(253, 52, 52);
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2) !important;
+}
